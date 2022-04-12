@@ -1,0 +1,32 @@
+
+class Main
+{
+    public static void main(String args[])
+    {
+        
+        StringBuffer s = new StringBuffer("java");
+        //apending Welcome in java
+        s.append("Welcome");
+        System.out.println(s);
+        
+         s= new StringBuffer("java");
+        //inserting "Java" at index 1
+        
+        s.insert(1,"Java");
+        System.out.println(s);
+        
+        s= new StringBuffer("java");
+        //replacing Java between index 1,2
+        s.replace(1,2,"Java");
+        System.out.println(s);
+        
+        s= new StringBuffer("java");
+        //delete between 1 and 2
+        s.delete(1,2);
+        System.out.println(s);
+        
+        s= new StringBuffer("HELLO");
+        s.reverse();
+        System.out.println(s);
+    }
+}
